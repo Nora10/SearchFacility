@@ -1,0 +1,276 @@
+<!-- Style -->
+
+
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+
+
+/** Nav bar Style **/
+body {margin:0;}
+
+.topnav {
+  overflow: hidden;
+  background-color: #112435;
+  
+}
+
+.topnav a {
+  float:left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 16px 40px;
+  text-decoration: none;
+  font-size: 17px;
+
+}
+
+.topnav a:hover {
+  background-color: #1975ff;
+  color: white;
+}
+
+.active {
+  background-color: #1975ff;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+}
+
+
+/** Logo/login/signup container Style **/
+
+.topIcon-login a:hover {
+  background-color:#fff ;
+  color: white;
+}
+.topnav .logo {	
+	  float: right;
+	 
+	  margin-right:16px;
+	  color:#fff;
+	  font-size: 17px;	
+	  text-align:center;
+}
+
+.topnav .topIcon-login {
+	  float: right; 	 
+	  margin-right: 16px;
+	  color: #fff;
+	  font-size: 17px;	
+	  text-align:center;
+	 
+	  	
+}
+
+
+.topnav .topIcon-signup {
+	  float: right;
+  	 
+	  margin-right: 16px;
+	  color: #fff;
+	  font-size: 17px;	
+	  text-align:center;
+	 
+	  	
+}
+
+
+
+/** Upload Container  background: rgba(0, 0, 0, 0.5); **/
+
+
+
+.audio-vn {
+	max-width:100%;
+}
+
+
+.containers {
+	
+   position: relative;
+	width:100%;
+    max-width: 900px; /* Maximum width */
+    margin: 0 auto; /* Center it */
+	background: #112435;
+	height:auto;
+	border:2px solid red;
+	border-color:red;
+	padding-bottom:20px;
+	margin-top:10px;
+	border-left-color:#112435;
+	border-bottom-color:#112435;
+	border-radius:1%;
+}
+
+
+
+
+.upload-container {
+	
+    position: relative;
+	width:100%;
+    max-width: 800px; /* Maximum width */
+    margin: 0 auto; /* Center it */
+	background: #112435;
+	height:auto;
+	padding-bottom:20px;
+	margin-top:20px;
+	color:white;
+}
+
+
+
+
+
+
+
+.upload-image {
+	width: 100%;
+	max-width:350px;
+    height: 100%;
+	 
+}
+
+
+
+
+
+
+/** Responsive 
+
+@media screen and (max-width: 600px) {
+  .containers {
+	  width:100%;
+	  height:auto;
+	  padding-right:100px;
+	
+  }
+  .image-upload {
+	  width:100%;
+	  height:auto;
+	  float:none;
+	
+  }
+  
+   .audio-vn {
+	  width:100%;
+	  height:auto;
+	   float:none;
+	clear:none;
+  }
+  
+  
+.desc {
+	
+	width:100%;
+	  height:100%;
+	border:2px solid #fff;
+	
+	clear:none;
+}
+    
+}
+
+ **/
+
+
+.desc {
+	width:100%;
+	max-width:800px;
+	height:auto;
+	border:2px solid #fff;
+	
+	clear:both;
+}
+
+
+
+
+/** More collapse and Expand Text **/
+
+
+
+.morecontent span {
+    display: none;
+}
+.morelink {
+    display: block;
+}
+
+
+
+
+
+
+
+/** Social Media Style **/
+
+
+
+#mySidenav a {
+    position: absolute;
+	margin-top:550px;
+    left: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+	float:bottom;
+    border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+    left: 0;
+}
+
+#about {
+    top: 20px;
+    background-color: #2196F3;
+}
+
+#blog {
+    top: 80px;
+    background-color: #2196F3;
+}
+
+#projects {
+    top: 140px;
+    background-color: #f44336;
+}
+
+#contact {
+    top: 200px;
+    background-color: #555;
+}
